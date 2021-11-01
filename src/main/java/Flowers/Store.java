@@ -12,9 +12,9 @@ public class Store {
 
             for (int i = 0; i < flowerBucket.flowerPacks.size(); i++) {
 
-                if (flowerBucket.flowerPacks.get(i).getFlower().getFlowerType() == flowerType) {
-                    flowersPresent += 1;
-                }
+//                if (flowerBucket.flowerPacks.get(i).getFlower().getFlowerType() == flowerType) {
+//                    flowersPresent += 1;
+//                }
             }
         }
         return flowersPresent;
